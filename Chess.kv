@@ -1,0 +1,427 @@
+<Wind>:
+    valign: 'center'
+    halign: 'center'
+    BoxLayout:
+        orientation: 'horizontal'
+        ChessBoard:
+            id: board
+            cols: 8
+            Button:
+                id: sq00
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(0,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq01
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(0,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq02
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(0,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq03
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(0,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq04
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(0,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq05
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(0,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq06
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(0,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq07
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(0,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 1
+            Button:
+                id: sq10
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(1,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq11
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(1,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq12
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(1,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq13
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(1,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq14
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(1,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq15
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(1,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq16
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(1,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq17
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(1,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 2
+            Button:
+                id: sq20
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(2,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq21
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(2,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq22
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(2,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq23
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(2,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq24
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(2,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq25
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(2,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq26
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(2,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq27
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(2,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 3
+            Button:
+                id: sq30
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(3,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq31
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(3,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq32
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(3,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq33
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(3,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq34
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(3,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq35
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(3,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq36
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(3,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq37
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(3,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 4
+            Button:
+                id: sq40
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(4,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq41
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(4,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq42
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(4,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq43
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(4,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq44
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(4,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq45
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(4,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq46
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(4,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq47
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(4,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 5
+            Button:
+                id: sq50
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(5,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq51
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(5,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq52
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(5,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq53
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(5,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq54
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(5,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq55
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(5,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq56
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(5,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq57
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(5,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 6
+            Button:
+                id: sq60
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(6,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq61
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(6,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq62
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(6,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq63
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(6,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq64
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(6,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq65
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(6,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq66
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(6,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq67
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(6,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 7
+            Button:
+                id: sq70
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(7,0)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq71
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(7,1)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq72
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(7,2)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq73
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(7,3)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq74
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(7,4)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq75
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(7,5)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq76
+                background_color: root.ids['board'].green
+                on_press: root.ids['board'].click(7,6)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+            Button:
+                id: sq77
+                background_color: root.ids['board'].white
+                on_press: root.ids['board'].click(7,7)
+                size: root.ids['board'].boardSize//8, root.ids['board'].boardSize//8
+                size_hint: None, None
+
+                #                                                                           end of row 8
+        Label:
+            id: GameNotation
+            text: 'this is right aligned'
+            color: 0,0,0
+            size_hint_x: None
+            size: self.texture_size
+            pos_hint: {'right': 1}
+
+
+
+
+    #    Button:
+    #        id: test
+    #        text: 'this is the board'
+    #        halign: 'center'
+    #        valign: 'center'
+    #        color: (1,1,1,1)
+    #        font_size: 30
+    #        padding: root.pdpx
